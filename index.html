@@ -1,27 +1,294 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html lang="zh-Hant-TW">
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
-
-    <!-- Bootstrap -->
-    <link href="bower/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <meta charset="utf-8" />
+    <title>eeyellow's HomePage</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/material-kit.css" />
+    <link rel="stylesheet" href="css/jquery.circliful.css" />
+    <link rel="stylesheet" href="css/jquery.eeyellow.Timeline.css" />
+    <style>
+        body {
+            background-color: #18241A;
+        }
+        
+        .main {
+            background: #E8EFEF;
+        }
+        
+        .profile-page .header {
+            background-image: url(img/map_digital.jpg);
+            /*background-color: #333;*/
+            background-size: cover;
+            background-position: 50% 90%;
+        }
+        
+        .nav-tabs > li,
+        .nav-pills > li {
+            float: none;
+            display: inline-block;
+            *display: inline;
+            /* ie7 fix */
+            zoom: 1;
+            /* hasLayout ie7 trigger */
+            margin: 0 50px;
+        }
+        
+        .nav-tabs,
+        .nav-pills {
+            text-align: center;
+        }
+    </style>
 </head>
-<body>
-    <h1>Hello, world!</h1>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="bower/jquery/dist/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bower/bootstrap/dist/js/bootstrap.min.js"></script>
+<body class="profile-page">
+    <nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
+    </nav>
+    <div class="wrapper">
+        <div class="header">
+        </div>
+        <div class="main main-raised">
+            <div class="profile-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="profile">
+                            <div class="avatar">
+                                <img src="img/QLogo.png" class="img-circle img-responsive img-raised" alt="">
+                            </div>
+                            <div class="name">
+                                <h3 class="title">eeyellow</h3>
+                                <h6>Full Stack Web Developer</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin:25px auto;">
+                        <div class="description text-center">
+                            <p>
+                                全端網頁開發者， 擅長地理資訊系統（Geographic Infomation System）， 資料庫設計與規劃，自動化資料處理，互動式圖表，以及各種網頁前後端技術。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row" style="margin: 25px auto;">
+                        <ul class="nav nav-pills nav-pills-default" role="tablist">
+                            <li>
+                                <a href="#tab_Work" role="tab" data-toggle="tab">
+                                    <i class="material-icons">list</i> My Work
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="#tab_Skill" role="tab" data-toggle="tab">
+                                    <i class="material-icons">build</i> My Skill
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#tab_Article" role="tab" data-toggle="tab">
+                                    <i class="material-icons">description</i> My Article
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content">
+                        <div id="tab_Work" class="row tab-pane fade">
+                            <div class="col-md-12">
+                                <div class="VivaTimeline">
+                                    <dl>
+                                        <dt>May 2016</dt>
+                                        <dd class="pos-left clearfix">
+                                            <div class="circ"></div>
+                                            <div class="time">Feb 03</div>
+                                            <div class="events">
+                                                <div class="events-header">樂碼創意有限公司</div>
+                                                <div class="events-body">
+                                                    <div class="row">
+                                                        <div class="col-md-6 pull-left">
+                                                            <a href="http://www.vivalacode.com.tw" target="_blank">
+                                                                <img class="events-object img-responsive img-rounded" src="img/event_01.png" />
+                                                            </a>
+                                                        </div>
+                                                        <div class="events-desc">
+                                                            與朋友一同創立「樂碼創意有限公司」，擔任技術長職位。 負責網站管理與架設、系統分析設計、資料庫設計、工作環境建置、模組開發、系統優化、整合測試...等工作。
+                                                        </div>
+                                                    </div>
+                                                    <div class="events-footer"></div>
+                                                </div>
+                                            </div>
+                                        </dd>
+                                        <dt>Feb 2016</dt>
+                                        <dd class="pos-right clearfix">
+                                            <div class="circ"></div>
+                                            <div class="time">Jan 20</div>
+                                            <div class="events">
+                                                <div class="events-header">工程案件管理系統</div>
+                                                <div class="events-body">
+                                                    <div class="row">
+                                                        <div class="col-md-6 pull-left">
+                                                            <a href="http://www.vivalacode.com.tw/FCU" target="_blank">
+                                                                <img class="events-object img-responsive img-rounded" src="img/event_02.png" />
+                                                            </a>
+                                                        </div>
+                                                        <div class="events-desc">
+                                                            提供MIS與GIS功能。將文本資料電子化， 同時整合地理資訊圖資檔案，在地圖上直接呈現工程案件詳細資料。 管理單位可以輕鬆進行瀏覽、查詢、審核、退件...等功能， 業務單位也能隨時更新工程進度，增進雙方溝通效率。
+                                                        </div>
+                                                    </div>
+                                                    <div class="events-footer"></div>
+                                                </div>
+                                            </div>
+                                        </dd>
+                                        <dd class="pos-left clearfix">
+                                            <div class="circ"></div>
+                                            <div class="time">Jan 7</div>
+                                            <div class="events">
+                                                <div class="events-header">歷史颱風路徑搜尋</div>
+                                                <div class="events-body">
+                                                    <div class="row">
+                                                        <div class="col-md-6 pull-left">
+                                                            <a href="http://www.vivalacode.com.tw/FCU" target="_blank">
+                                                                <img class="events-object img-responsive img-rounded" src="img/event_02.png" />
+                                                            </a>
+                                                        </div>
+                                                        <div class="events-desc">
+                                                            介接日本National Institude of Informatics(NII)1951年~2015年的歷史颱風資料，並使用PostgreSQL建立空間資料庫。 使用者在網頁上描繪颱風點位，系統將即時運算顯示最接近之歷史颱風路徑，以供參考查詢使用。
+                                                        </div>
+                                                    </div>
+                                                    <div class="events-footer"></div>
+                                                </div>
+                                            </div>
+                                        </dd>
+                                        <dt>Jan 2016</dt>
+
+                                        <dd class="pos-right clearfix">
+                                            <div class="circ"></div>
+                                            <div class="time">Dec 30</div>
+                                            <div class="events">
+                                                <div class="events-header">臺北市大地工程處休閒遊憩主題網</div>
+                                                <div class="events-body">
+                                                    <div class="row">
+                                                        <div class="col-md-6 pull-left">
+                                                            <a href="http://gisweb.taipei.gov.tw/release" target="_blank">
+                                                                <img class="events-object img-responsive img-rounded" src="img/event_04.png" />
+                                                            </a>
+                                                        </div>
+                                                        <div class="events-desc">
+                                                            <a href="http://www.geo.gov.taipei/ct.asp?xItem=161177639&ctNode=28438&mp=105041" target="_blank">
+                                                            臺北市大地工程處
+                                                            </a>                                                            原有之山坡地休閒遊憩資訊， 分散於12個以上的網頁，查詢資訊十分不便。 因此打造全新的休閒遊憩主題網，歸納重點資訊於單一網站，
+                                                            並考量行動裝置普及，調整版面配置為響應式網頁，以方便民眾查詢使用。
+                                                        </div>
+                                                    </div>
+                                                    <div class="events-footer"></div>
+                                                </div>
+                                            </div>
+                                        </dd>
+
+                                        <dt>Dec 2015</dt>
+                                        <dd class="pos-left clearfix">
+                                            <div class="circ"></div>
+                                            <div class="time">Dec 30</div>
+                                            <div class="events">
+                                                <div class="events-header">桃園縣空間資訊平台建置與社會經濟資料庫整合計畫</div>
+                                                <div class="events-body">
+                                                    <div class="row">
+                                                        <div class="col-md-6 pull-left">
+                                                            <a href="http://gisweb.taipei.gov.tw/release" target="_blank">
+                                                                <img class="events-object img-responsive img-rounded" src="img/event_04.png" />
+                                                            </a>
+                                                        </div>
+                                                        <div class="events-desc">
+                                                        </div>
+                                                    </div>
+                                                    <div class="events-footer"></div>
+                                                </div>
+                                            </div>
+                                        </dd>
+                                        <dt>Oct 2015</dt>
+                                        <dt>May 2013</dt>
+                                        <dt>May 2011</dt>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="tab_Skill" class="row tab-pane fade in active text-center">
+                            <div class="col-md-3 col-sm-4 col-xs-12">
+                                <div class="circliful" data-info="Javascript" data-percent="95" data-infoSize="14" data-percentSize="26" data-color="#099994"></div>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-12">
+                                <div class="circliful" data-info="Database" data-percent="92" data-infoSize="14" data-percentSize="26" data-color="#099994"></div>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-12">
+                                <div class="circliful" data-info="Web" data-percent="88" data-infoSize="14" data-percentSize="26" data-color="#0ABAB5"></div>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-12">
+                                <div class="circliful" data-info="GIS" data-percent="87" data-infoSize="14" data-percentSize="26" data-color="#0ABAB5"></div>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-12">
+                                <div class="circliful" data-info="ASP.NET" data-percent="80" data-infoSize="14" data-percentSize="26" data-color="#0ABAB5"></div>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-12">
+                                <div class="circliful" data-info="AWS" data-percent="75" data-infoSize="14" data-percentSize="26" data-color="#81D8D0"></div>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-12">
+                                <div class="circliful" data-info="Elasticsearch" data-percent="73" data-infoSize="14" data-percentSize="26" data-color="#81D8D0"></div>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-12">
+                                <div class="circliful" data-info="Scrum" data-percent="70" data-infoSize="14" data-percentSize="26" data-color="#81D8D0"></div>
+                            </div>
+                        </div>
+
+                        <div id="tab_Article">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <nav class="pull-left">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/eeyellow">
+                                    GitHub
+                                </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/eeyellowH">
+                                    Facebook
+                                </a>
+                        </li>
+                        <li>
+                            <a href="mailto:eeyellow@gmail.com">
+                                   Email
+                                </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="copyright pull-right">
+                    © 2016, made by eeyellow.
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/material.min.js"></script>
+    <script src="js/material-kit.js"></script>
+    <script src="js/jquery.circliful.js"></script>
+    <script src="js/jquery.eeyellow.Timeline.js"></script>
+    <script>
+        $(document).ready(function() {
+        $('.circliful').css({
+            'margin-left': 'auto',
+            'margin-right': 'auto'
+        }).circliful();
+
+        $('.VivaTimeline').vivaTimeline();
+    });
+    </script>
 </body>
+
 </html>
