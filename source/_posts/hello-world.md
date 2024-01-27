@@ -1,38 +1,8 @@
 ---
-title: Hello World
+title: 網誌轉移到Hexo
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+自從經歷了公司直接把雙週會分享刪掉的事件（是有復原啦），就覺得要留個保險。是時候來試試 [Hexo](https://hexo.io/) 了
 
-## Quick Start
+簡報是一直習慣寫 Markdown，還為了在公司報告，研究了一個 VSCode 套件 [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=tom-latham.markdown-pdf-plus)。所以轉換到用 Markdown 產生靜態網站的網誌系統應該不是難事。
 
-### Create a new post
-
-``` bash
-$ hexo new "My New Post"
-```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+開始吧，Hello Hexo！
