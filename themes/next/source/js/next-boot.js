@@ -1,6 +1,7 @@
 /* global NexT, CONFIG */
 
 NexT.boot = {};
+NexT.utils = NexT.utils || {};
 
 NexT.boot.registerEvents = function() {
 
