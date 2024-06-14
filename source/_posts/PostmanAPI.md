@@ -2,6 +2,8 @@
 title: PostmanAPI
 date: 2024-01-29 17:21:54
 tags: postman, git, nodejs
+categories: 
+    - 程式
 ---
 
 # **PostmanAPI 同步機制**
