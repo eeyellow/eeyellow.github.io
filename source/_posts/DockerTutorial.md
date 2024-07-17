@@ -1,7 +1,7 @@
 ---
 title: Docker技術分享
 date: 2024-06-08 22:13:42
-tags:
+tags: [DevOps, docker]
 ---
 # Docker技術分享
 
